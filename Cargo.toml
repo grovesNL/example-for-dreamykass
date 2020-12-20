@@ -1,0 +1,13 @@
+[package]
+name = "example-for-dreamykass"
+version = "0.1.0"
+authors = ["Joshua Groves <josh@joshgroves.com>"]
+edition = "2018"
+
+[dependencies]
+winit = "0.24.0"
+futures = "0.3"
+wgpu-subscriber = "0.1.0"
+
+[dependencies.wgpu]
+version = "0.6"
